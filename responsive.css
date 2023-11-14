@@ -27,10 +27,10 @@ img {
 /* Adaptações para telas menores (pode ser ajustado conforme necessário) */
 @media only screen and (max-width: 600px) {
   img {
-    max-width: 80%;
+    max-width: 90%;
   }
 
   .love-text {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
