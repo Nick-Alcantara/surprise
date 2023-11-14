@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .backgroundColor {
+    background-color: purple;
+  }
+  
+  .surprise-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #surprise-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #surprise-link:hover {
+    background-color: #45a049;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #image-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Adicione a classe fade-in para aplicar a animação */
+  #image-container img.fade-in {
+    opacity: 1;
+  }
+  .love-text-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .love-text-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .love-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+  }
+  
+  /* Adicione a classe fade-in para aplicar a animação ao texto "Eu te amo" */
+  .love-text.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Estilo para ocultar inicialmente o texto "Eu te amo" */
+  .love-text.hidden {
+    opacity: 0;
+  }
+
+  #image-container img {
+    width: auto; /* Altere este valor conforme necessário */
+    height: auto;
+  }
