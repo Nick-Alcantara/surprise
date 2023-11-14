@@ -5,14 +5,14 @@ document.getElementById('surprise-link').addEventListener('click', function(even
     document.querySelector('.surprise-container').style.display = 'none';
   
     // Tocar o tema do Harry Potter (substitua com o caminho real do seu arquivo de áudio)
-    var audio = new Audio('audio/amor.mp3');
+    var audio = new Audio('amor.mp3');
     audio.play();
   
     // Adicionar uma cantada (substitua com sua própria cantada)
     alert("Você é a minha melhor escolha, e você foi a melhor coisa que já aconteceu na minha vida!");
   
     // Substitua os caminhos das imagens com os caminhos reais das suas imagens
-    var images = ['img/doisanos.jpg','img/investidura.jpg', 'img/nicolandia.jpg', 'img/amor.jpg', 'img/1.jpg', 'img/2.jpg', 'img/3.jpg', 'img/4.jpg'];
+    var images = ['doisanos.jpg','investidura.jpg', 'nicolandia.jpg', 'amor.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'];
   
     // Embaralhe as imagens aleatoriamente
     images = shuffleArray(images);
