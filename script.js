@@ -4,14 +4,14 @@ document.getElementById('surprise-link').addEventListener('click', function(even
     // Ocultar a div com a classe 'surprise-container'
     document.querySelector('.surprise-container').style.display = 'none';
   
-    // Tocar o tema do Harry Potter (substitua com o caminho real do seu arquivo de áudio)
+    // Tocar um audio
     var audio = new Audio('amor.mp3');
     audio.play();
   
-    // Adicionar uma cantada (substitua com sua própria cantada)
+    // Adicionar uma mensagenzinha
     alert("Você é a minha melhor escolha, e você foi a melhor coisa que já aconteceu na minha vida!");
   
-    // Substitua os caminhos das imagens com os caminhos reais das suas imagens
+    // incluir as imagens na tela 
     var images = ['doisanos.jpg','investidura.jpg', 'nicolandia.jpg', 'amor.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'];
   
     // Embaralhe as imagens aleatoriamente
@@ -40,7 +40,7 @@ document.getElementById('surprise-link').addEventListener('click', function(even
       imageContainer.appendChild(imgElement);
     });
   
-    // Adicionar o texto "Eu te amo" acima das imagens
+    // Adicionar o texto "Eu te amo" no centro das imagens
     addLoveText();
   });
   
@@ -63,9 +63,7 @@ document.getElementById('surprise-link').addEventListener('click', function(even
     // Adicionar a classe fade-in para aplicar a animação
     setTimeout(() => loveText.classList.add('fade-in'), 500);
   }
-  
-  // Restante do código permanece o mesmo
-  
+   
   
   // Função para embaralhar um array
   function shuffleArray(array) {
